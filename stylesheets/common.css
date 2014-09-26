@@ -1,8 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 body {
-	
+	font-size:16px;
+	font-weight:normal;
+	font-family: 'Oxygen', sans-serif;
 }
 
 
+header {
+	border-top:solid 10px black;
+	padding:10px;
+}
+
+h1 {
+	font-size:48px;
+	font-weight:bold;
+	font-family: 'Oxygen', sans-serif;
+	padding-bottom: 5px;
+	border-bottom: solid 1px black;
+	margin-bottom: 17px;	
+}
+
+h1.white{
+	color:white;
+}
+
+
+#mainFeatureContainer {
+	min-height:700px;
+	position: relative;
+	color:white;
+	font-size: 16px;
+	padding:60px 15px 15px 15px;
+}
+
 #mainFeature {
-	
+	min-height: 250px;
+	background-size: cover;	
+}
+
+#mainFeatureBackground {
+	background-image: url(/images/heavenly.jpg);
+	background-repeat: no-repeat;
+	background-position: center top; 
+	min-height: 250px; 
+	background-size: cover;
+}
+
+#mainFeatureForeground {
+	padding-bottom:400px;
+}
+
+#mainFeatureContainer h1 {
+	font-size:60px;
+	font-weight:bold;
+	padding-bottom: 10px;
+	border-bottom: none;
+	margin-bottom: 0px;	
+}
+
+#mainCallouts {
+	background-color:white;
+	position:relative;
+	margin-top:-375px;
+	z-index:101;
+	margin-bottom:50px;
+}
+
+#greatestCommandment {
+	background-color:#f2f2f2;
+	padding:40px 0;
+	font-size:24px;
+}
+
+footer {
+	background-color:black;
+	color:white;
+	font-size:14px;
+	padding:30px 15px;
+	text-align: center;
+}
+
+#secondaryFeatureContainer {
+	min-height:700px;
+	position: relative;
+	padding:15px;
+}
+
+#secondaryContentContainer {
+	background-color:white;
+	position:relative;
+	margin-top:-650px;
+	z-index:101;
+	padding:15px 30px 30px 30px;
+	min-height: 650px;
+}
+
+#menu
+{
+	background-color:#cccccc;
+	padding:15px;
+	margin-top:20px;
+}
+	#menu a {
+		position:relative;
+		display:block;
+		color:white;
+		padding:5px 0;
+	}
+
+
+a.btn {
+	color:white;
+	padding:5px 20px 5px 10px;
+	border-radius: 0;
+	background:url(/images/iconNavArrow.gif) center right no-repeat #009933;
+}
+
+
+@media (max-width: 767px) {
+
+	#mainFeatureBackground {
+		background-position: center left; 
+	}
+
+	#mainFeatureContainer {
+		min-height:200px;
+		position: relative;
+		color:white;
+		font-size: 16px;
+		padding:30px 15px 15px 15px;
+	}
+
+	#mainFeatureForeground {
+		padding-bottom:20px;
+	}
+
+	#mainCallouts {
+		margin-top:0px;
+	}	
 }

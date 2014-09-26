@@ -7764,7 +7764,8 @@ td.visible-print {
 
 @media (max-width: 767px) {
 	.col-foreground-xs, .col-foreground {
-		z-index: 100;
+		position:relative;
+    z-index: 100;
 	}
 
 	.col-background-xs, .col-background {
@@ -7804,7 +7805,8 @@ td.visible-print {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-foreground-sm, .col-foreground, .col-foreground-sm-up {
-		z-index: 100;
+		position:relative;
+    z-index: 100;
 	}
 
 	.col-background-sm, .col-background, .col-background-sm-up {
@@ -7844,7 +7846,8 @@ td.visible-print {
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.col-foreground-md, .col-foreground, .col-foreground-sm-up, .col-foreground-md-up {
-		z-index: 100;
+		position:relative;
+    z-index: 100;
 	}
 
 	.col-background-md, .col-background, .col-background-sm-up, .col-background-md-up {
@@ -7893,7 +7896,8 @@ td.visible-print {
 
 @media (min-width: 1200px) {
 	.col-foreground-lg, .col-foreground, .col-foreground-sm-up, .col-foreground-md-up {
-		z-index: 100;
+		position:relative;
+    z-index: 100;
 	}
 
 	.col-background-lg, .col-background, .col-background-sm-up, .col-background-md-up {
